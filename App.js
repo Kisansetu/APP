@@ -5,9 +5,6 @@ import logo from "./assets/LogoName.png"
 
 
 export default function App() {
-
-  const [country, setCountry] = useState('Unknown');
-
   return (
     <SafeAreaView style={styles.container}>
       <Image source={logo} style={styles.logo} />
